@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0223D5EB6548445899FA45E5 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE70521B884E3988282FCA /* TodayView.swift */; };
+		09661C0E7A984C0AABF99304 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EECEBD168C64108B32F3053 /* HistoryView.swift */; };
+		2055DAE89E1C4A048CAD290E /* TemplatePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B20DA744DA4EB5AE1CA27F /* TemplatePickerSheet.swift */; };
+		46EF308042A14CB29EF1BEB7 /* NutritionScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB3F998FFDB48E3A2673F8A /* NutritionScannerView.swift */; };
+		54ED2146D02542989F9AA917 /* FoodRecordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FE1F6CCB84D1CB8263246 /* FoodRecordCard.swift */; };
+		5D813F49D26C46968D69A9ED /* SteadyHavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AB3F35D273472AA9426B6D /* SteadyHavenApp.swift */; };
+		9011B79C05ED4E6D887A5EE9 /* AddFoodSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B790A020498D4823BAE1E9B5 /* AddFoodSheet.swift */; };
+		983DE2D93F6F42148DB13369 /* NutritionSummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC62E9A9304319BA9DC218 /* NutritionSummaryCard.swift */; };
+		C55CB9E362B54C57976F3EF2 /* FoodRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3226A013FE448C842BF9FE /* FoodRecord.swift */; };
+		C67A218AF43E494DB6B8293F /* TemplateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C6E4139A5A46ECA456A062 /* TemplateListView.swift */; };
+		D1EB603B654A45FCA7D65FCF /* FoodTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC07F8FEBD1B4315A71EA901 /* FoodTemplate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C6E4139A5A46ECA456A062 /* TemplateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateListView.swift; sourceTree = "<group>"; };
+		19CC62E9A9304319BA9DC218 /* NutritionSummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionSummaryCard.swift; sourceTree = "<group>"; };
+		1C3226A013FE448C842BF9FE /* FoodRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecord.swift; sourceTree = "<group>"; };
+		2EECEBD168C64108B32F3053 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		3B85413A2D394008890713E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2FE1F6CCB84D1CB8263246 /* FoodRecordCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRecordCard.swift; sourceTree = "<group>"; };
+		65FE70521B884E3988282FCA /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		89B20DA744DA4EB5AE1CA27F /* TemplatePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatePickerSheet.swift; sourceTree = "<group>"; };
+		B790A020498D4823BAE1E9B5 /* AddFoodSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodSheet.swift; sourceTree = "<group>"; };
+		BC07F8FEBD1B4315A71EA901 /* FoodTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTemplate.swift; sourceTree = "<group>"; };
+		D5AB3F35D273472AA9426B6D /* SteadyHavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteadyHavenApp.swift; sourceTree = "<group>"; };
+		DA75DDC9B61F49C88663D84E /* SteadyHaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteadyHaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB3F998FFDB48E3A2673F8A /* NutritionScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionScannerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3E9717371A4ED28F47261F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F834B5F8CE41DA91E44A7B = {
+			isa = PBXGroup;
+			children = (
+				14F8C99F807640C7BDAA89BE /* SteadyHaven */,
+				91278FA7544C46AD8BD5043E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F8C99F807640C7BDAA89BE /* SteadyHaven */ = {
+			isa = PBXGroup;
+			children = (
+				D5AB3F35D273472AA9426B6D /* SteadyHavenApp.swift */,
+				3B85413A2D394008890713E1 /* Info.plist */,
+				BBA5F6B6D1A84842BFE7DE3D /* Models */,
+				F78F5A877F8B4B4AA7A30D6B /* Views */,
+			);
+			path = SteadyHaven;
+			sourceTree = "<group>";
+		};
+		91278FA7544C46AD8BD5043E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA75DDC9B61F49C88663D84E /* SteadyHaven.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBA5F6B6D1A84842BFE7DE3D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C3226A013FE448C842BF9FE /* FoodRecord.swift */,
+				BC07F8FEBD1B4315A71EA901 /* FoodTemplate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F78F5A877F8B4B4AA7A30D6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19CC62E9A9304319BA9DC218 /* NutritionSummaryCard.swift */,
+				5B2FE1F6CCB84D1CB8263246 /* FoodRecordCard.swift */,
+				B790A020498D4823BAE1E9B5 /* AddFoodSheet.swift */,
+				65FE70521B884E3988282FCA /* TodayView.swift */,
+				2EECEBD168C64108B32F3053 /* HistoryView.swift */,
+				10C6E4139A5A46ECA456A062 /* TemplateListView.swift */,
+				89B20DA744DA4EB5AE1CA27F /* TemplatePickerSheet.swift */,
+				DEB3F998FFDB48E3A2673F8A /* NutritionScannerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C5FC201F094481A969E963F /* SteadyHaven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341D00EF1DE54309B244864F /* Build configuration list for PBXNativeTarget "SteadyHaven" */;
+			buildPhases = (
+				E766F4E689514E90BE4AA308 /* Sources */,
+				ED3E9717371A4ED28F47261F /* Frameworks */,
+				C02883A28D604956AC1CC374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteadyHaven;
+			productName = SteadyHaven;
+			productReference = DA75DDC9B61F49C88663D84E /* SteadyHaven.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A19C5EB6E1A4735A7FE8AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5C5FC201F094481A969E963F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 70DB6476804B44BC93D70FB0 /* Build configuration list for PBXProject "SteadyHaven" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 05F834B5F8CE41DA91E44A7B;
+			productRefGroup = 91278FA7544C46AD8BD5043E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C5FC201F094481A969E963F /* SteadyHaven */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C02883A28D604956AC1CC374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E766F4E689514E90BE4AA308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D813F49D26C46968D69A9ED /* SteadyHavenApp.swift in Sources */,
+				C55CB9E362B54C57976F3EF2 /* FoodRecord.swift in Sources */,
+				D1EB603B654A45FCA7D65FCF /* FoodTemplate.swift in Sources */,
+				983DE2D93F6F42148DB13369 /* NutritionSummaryCard.swift in Sources */,
+				54ED2146D02542989F9AA917 /* FoodRecordCard.swift in Sources */,
+				9011B79C05ED4E6D887A5EE9 /* AddFoodSheet.swift in Sources */,
+				0223D5EB6548445899FA45E5 /* TodayView.swift in Sources */,
+				09661C0E7A984C0AABF99304 /* HistoryView.swift in Sources */,
+				C67A218AF43E494DB6B8293F /* TemplateListView.swift in Sources */,
+				2055DAE89E1C4A048CAD290E /* TemplatePickerSheet.swift in Sources */,
+				46EF308042A14CB29EF1BEB7 /* NutritionScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		865149A2CAC54759B3F383EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4N9K82NR8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SteadyHaven/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于拍摄营养标签照片进行识别";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.steadyhaven.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE71DE272B4846FCBD0A16EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4N9K82NR8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SteadyHaven/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "用于拍摄营养标签照片进行识别";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.steadyhaven.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C11D3405610D44C38D1C8CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB0D1FB4DEF468591ADC24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341D00EF1DE54309B244864F /* Build configuration list for PBXNativeTarget "SteadyHaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865149A2CAC54759B3F383EE /* Debug */,
+				AE71DE272B4846FCBD0A16EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DB6476804B44BC93D70FB0 /* Build configuration list for PBXProject "SteadyHaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB0D1FB4DEF468591ADC24F /* Debug */,
+				C11D3405610D44C38D1C8CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A19C5EB6E1A4735A7FE8AC4 /* Project object */;
+}
